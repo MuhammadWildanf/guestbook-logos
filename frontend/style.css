@@ -319,9 +319,8 @@ svg {
   font-weight: 700;
 }
 
-/* SWEETALERT GLOW BOX */
 .swal-glow-box {
-  width: 260px;
+  width: 300px;
   margin: auto;
   position: relative;
 }
@@ -329,21 +328,20 @@ svg {
 .swal-glow-box::before {
   content: "";
   position: absolute;
-  inset: -25px -30px;
-  border-radius: 30px;
-  background: radial-gradient(circle at top left, rgba(255, 0, 120, 0.5), transparent 60%), radial-gradient(circle at bottom right, rgba(120, 0, 255, 0.5), transparent 60%);
-  filter: blur(35px);
+  inset: -80px -70px;
+  border-radius: 35px;
+  background: radial-gradient(circle at top left, rgba(255, 40, 150, 0.55), transparent 60%), radial-gradient(circle at bottom right, rgba(90, 0, 255, 0.55), transparent 60%);
+  filter: blur(70px);
   z-index: 0;
 }
 
 .swal-inner {
   position: relative;
   z-index: 2;
-  padding: 25px 20px;
-  border-radius: 18px;
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
+  padding: 30px 20px;
+  border-radius: 20px;
   background: linear-gradient(180deg, #ff62b0, #7a20ff);
+  font-family: "Orbitron", sans-serif;
   color: white;
   font-size: 20px;
   font-weight: 700;
@@ -354,28 +352,28 @@ svg {
   font-size: 17px;
 }
 
-/* THANK-YOU BOX P2 */
+/* THANK-YOU BOX P2 — FIX (Mirip PNG Glow) */
 .thank-glow-box {
-  width: 290px;
-  margin: 0 auto;
+  width: 320px;
+  margin: 40px auto 0 auto; /* kasih jarak dari logo */
   position: relative;
 }
 
 .thank-glow-box::before {
   content: "";
   position: absolute;
-  inset: -30px -30px;
-  border-radius: 25px;
-  background: radial-gradient(circle at top left, rgba(255, 0, 120, 0.45), transparent 70%), radial-gradient(circle at bottom right, rgba(120, 0, 255, 0.45), transparent 70%);
-  filter: blur(35px);
+  inset: -80px -70px; /* glow besar keluar area */
+  border-radius: 35px;
+  background: radial-gradient(circle at top left, rgba(255, 40, 150, 0.55), transparent 65%), radial-gradient(circle at bottom right, rgba(90, 0, 255, 0.55), transparent 65%);
+  filter: blur(70px); /* makin besar & soft */
   z-index: 0;
 }
 
 .thank-inner {
   position: relative;
   z-index: 2;
-  padding: 25px 20px;
-  border-radius: 18px;
+  padding: 28px 20px;
+  border-radius: 22px;
   background: linear-gradient(180deg, #ff62b0, #7a20ff);
   font-family: "Orbitron", sans-serif;
   text-align: center;
@@ -383,7 +381,7 @@ svg {
 }
 
 .thank-inner .big {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
 }
 
